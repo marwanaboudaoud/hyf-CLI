@@ -55,22 +55,10 @@ marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders
 $ cd are
 
 marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders/are
-$ ls
-just/
-
-marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders/are
 $ cd just
 
 marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders/are/just
-$ ls
-for/
-
-marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders/are/just
 $ cd for
-
-marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders/are/just/for
-$ ls
-fun/
 
 marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders/are/just/for
 $ cd fun
