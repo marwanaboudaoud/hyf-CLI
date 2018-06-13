@@ -87,7 +87,7 @@ $ wc -c fun.txt
 
 
 marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders/are/just/for/fun
-$ echo -n "test" >fun
+$ echo -n "test" >fun.txt
 
 marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders/are/just/for/fun
 $ echo -n "output">>fun.txt
