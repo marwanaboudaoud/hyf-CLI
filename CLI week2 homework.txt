@@ -82,15 +82,15 @@ marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders/are/just/for/fun
 $ touch fun.txt
 
 marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders/are/just/for/fun
-$ echo "test"> fun.txt
+$ echo "test">fun.txt
 
 marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders/are/just/for/fun
-$ écho "another test">> fun.txt
-bash: écho: command not found
+$ echo "another test">>fun.txt
 
 marwa@LAPTOP-K400RNBK MINGW64 ~/these/folders/are/just/for/fun
 $ wc -c fun.txt
-5 fun.txt
+18 fun.txt
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
