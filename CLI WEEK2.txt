@@ -1,0 +1,71 @@
+Hello 
+
+this is my CLI week2 homework
+
+1- to create a directory and Enter a directory and Create an empty file named blank:
+
+marwa@LAPTOP-K400RNBK MINGW64 ~
+$ mkdir marwan
+
+marwa@LAPTOP-K400RNBK MINGW64 ~
+$ cd marwan/
+
+marwa@LAPTOP-K400RNBK MINGW64 ~/marwan
+$ touch blank
+
+
+2- to write the content "Hello" five times to the file greetings.txt:
+
+
+marwa@LAPTOP-K400RNBK MINGW64 ~/marwan
+$ for i in {1..5}; do echo "hello">>greetings.txt;done
+
+
+-Then to copy the file greetings.txt and paste its contents into 1.txt, 2.txt, 3.txt, 4.txt and 5.txt:
+
+
+marwa@LAPTOP-K400RNBK MINGW64 ~/marwan
+$ cat greetings.txt > 1.txt > 2.txt > 3.txt > 4.txt >5.txt
+
+
+3-to write the text "cat" to pets.txt Then append the text "dog" to pets.txt Then append the text "hamster" to pets.txt:
+
+marwa@LAPTOP-K400RNBK MINGW64 ~/marwan
+$ echo "cat" > pets.txt
+
+marwa@LAPTOP-K400RNBK MINGW64 ~/marwan
+$ echo "dogs" >> pets.txt
+
+marwa@LAPTOP-K400RNBK MINGW64 ~/marwan
+$ echo "hamster" >> pets.txt
+
+
+4-to write the text "cat" to commands.txt Then append the text "ls" to commands.txt Then append the text "pwd" to commands.txt:
+
+marwa@LAPTOP-K400RNBK MINGW64 ~/marwan
+$ echo "cat" > commands.txt
+
+marwa@LAPTOP-K400RNBK MINGW64 ~/marwan
+$ echo "ls" >> commands.txt
+
+marwa@LAPTOP-K400RNBK MINGW64 ~/marwan
+$ echo "pwd" >>commands.txt
+
+
+5- find unique strings from these two files pets.txt and commands.txt and store the unique strings in lovelyCommands.txt:
+
+marwa@LAPTOP-K400RNBK MINGW64 ~/marwan
+$ sort -u commands.txt pets.txt > lovelycommands.txt
+
+marwa@LAPTOP-K400RNBK MINGW64 ~/marwan
+$ cat lovelycommands.txt
+cat
+dogs
+hamster
+ls
+pwd
+
+
+--------------------------------------------------------------------------------------------
+
+
